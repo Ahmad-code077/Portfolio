@@ -5,7 +5,7 @@ const About = () => {
       <section className='mt-20 font-poppins'>
         <div className='flex items-start gap-5 justify-start max-w-[90vw] sm:max-w-[80vw] md:max-w-[70vw] lg:max-w-[60vw] flex-col mx-auto'>
           <div className='flex items-start justify-start flex-col gap-2'>
-            <h1 className='text-xl font-bold tracking-tight md:text-3xl'>
+            <h1 className='text-3xl font-bold tracking-tight md:text-5xl'>
               About
             </h1>
             <h1 className='text-[#7127BA] text-3xl md:text-4xl font-bold '>

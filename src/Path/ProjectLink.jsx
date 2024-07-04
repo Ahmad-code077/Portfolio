@@ -4,7 +4,7 @@ const ProjectLink = () => {
   return (
     <main className='mt-20'>
       <section className='font-poppins '>
-        <div className='flex flex-col gap-6 max-w-[88vw] min-[480px]:max-w-[480px] md:max-w-[90vw] mx-auto'>
+        <div className='flex flex-col gap-6 max-w-[88vw] md:max-w-[90vw] mx-auto'>
           <div className='flex justify-start flex-col items-start gap-3 pb-5'>
             <h1 className='text-3xl font-bold md:text-5xl'>Projects</h1>
             <p className='text-xs text-gray-300 md:text-base'>

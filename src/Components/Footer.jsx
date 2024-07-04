@@ -3,6 +3,7 @@ import { BsDashCircleDotted } from 'react-icons/bs';
 import { linkImages, docsLinks } from '../data';
 import { useState, useEffect, useRef } from 'react';
 import { CiMail } from 'react-icons/ci';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   const [isHovered, setIsHovered] = useState(false);
@@ -36,10 +37,10 @@ const Footer = () => {
       <div className='flex items-center justify-center flex-col gap-10 border-t border-[#9858D3] border-opacity-35 mt-16 font-poppins'>
         <ul className='flex items-center justify-center flex-wrap gap-5 pt-4 text-lg'>
           {docsLinks.map((item) => {
-            const { id, text } = item;
+            const { link, id, text } = item;
             return (
               <li key={id} className='footer-link border-dashed border-b'>
-                <a href='#'>{text}</a>
+                <Link to={link}>{text}</Link>
               </li>
             );
           })}

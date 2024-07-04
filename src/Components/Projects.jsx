@@ -58,15 +58,15 @@ const Projects = () => {
       </section>
 
       {/* second section */}
-      <section className='mt-24 sm:mt-48 max-w-[85vw] mx-auto'>
+      <section className='mt-12 sm:mt-48 max-w-[85vw] mx-auto'>
         <div className='flex relative items-center justify-start'>
           <img
             src={gradient}
             alt='Gradient'
             className='hidden -z-10 absolute sm:block -bottom-[70px] h-[500px] sm:-left-[100px] md:-left-20 lg:left-0'
           />
-          <div className=' font-poppins max-w-[90vw] mx-auto sm:flex md:max-w-[80vw] lg:max-w-[70vw] '>
-            <div className='rounded-[14px] max-w-md mx-auto sm:mx-0 shadow-[-11px_-9px_#2B0B3A] sm:hover:scale-[1.03] duration-100 ease-in-out sm:shadow-[-27px_-18px_#2B0B3A]'>
+          <div className='flex flex-col sm:flex-row font-poppins max-w-[90vw] mx-auto  md:max-w-[80vw] lg:max-w-[70vw] '>
+            <div className='rounded-[14px] max-w-md mx-auto sm:mx-0 shadow-[-11px_-9px_#2B0B3A] sm:hover:scale-[1.03] duration-100 ease-in-out sm:shadow-[-27px_-18px_#2B0B3A] order-2 sm:order-1'>
               <a
                 href='https://resturant-menu-react-app.netlify.app/'
                 target='_blank'
@@ -78,7 +78,7 @@ const Projects = () => {
                 />
               </a>
             </div>
-            <div className='mt-12 sm:mt-0'>
+            <div className='mt-12 sm:mt-0 order-1 sm:order-2'>
               <div className='sm:pl-3 md:pl-8'>
                 <span className='text-[#9857D3]'>Featured Project</span>
                 <h1 className='text-3xl text-[#CCD6F6] font-semibold pb-8 '>

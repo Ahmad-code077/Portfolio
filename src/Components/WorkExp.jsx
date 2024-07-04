@@ -24,7 +24,7 @@ const WorkExp = () => {
                       className='max-h-28 rounded-md'
                     />
                   </div>
-                  <div className='text-start'>
+                  <div className='text-start flex flex-col gap-2'>
                     <h4 className='text-xs font-semibold sm:text-2xl md:text-[1.12rem] xl:text-3xl'>
                       {heading}
                     </h4>

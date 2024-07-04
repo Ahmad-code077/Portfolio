@@ -31,6 +31,7 @@ import firstImg from '../src/assets/data_images/first.svg';
 import secondImg from '../src/assets/data_images/second.svg';
 import thirdImg from '../src/assets/data_images/third.svg';
 import fourthImg from '../src/assets/data_images/fourth.svg';
+import { Link } from 'react-router-dom';
 export default [
   {
     id: 1,
@@ -83,22 +84,27 @@ export const docsLinks = [
   {
     id: 1,
     text: 'Docs',
+    link: '/docs',
   },
   {
     id: 2,
     text: 'Analytics',
+    link: '/analytics',
   },
   {
     id: 3,
     text: 'Statistics',
+    link: '/statistics',
   },
   {
     id: 4,
     text: 'Guestbook',
+    link: '/guestbook',
   },
   {
     id: 5,
     text: 'Subscribe',
+    link: '/subscribe',
   },
 ];
 
@@ -225,9 +231,7 @@ export const projectData = [
       'E-learning Application with 3 role including student , teacher & admin',
     images: [<FaReact />, <SiMongodb />, <FaNodeJs />],
     pImage: first,
-    buttonSvg: (
-      <MdOutlineKeyboardArrowRight className='animate-bounce text-xl' />
-    ),
+    buttonSvg: <MdOutlineKeyboardArrowRight className='animate-move text-xl' />,
   },
   {
     id: 2,
@@ -235,9 +239,7 @@ export const projectData = [
     title: 'EasyControl Sass Application Providing benefits',
     images: [<FaReact />, <SiRedux />, <RiTailwindCssFill />],
     pImage: second,
-    buttonSvg: (
-      <MdOutlineKeyboardArrowRight className='animate-bounce text-xl' />
-    ),
+    buttonSvg: <MdOutlineKeyboardArrowRight className='animate-move text-xl' />,
   },
   {
     id: 3,
@@ -245,9 +247,7 @@ export const projectData = [
     title: 'Admin Dashboard for mobile application.',
     images: [<FaReact />, <SiMongodb />, <FaNodeJs />],
     pImage: third,
-    buttonSvg: (
-      <MdOutlineKeyboardArrowRight className='animate-bounce text-xl' />
-    ),
+    buttonSvg: <MdOutlineKeyboardArrowRight className='animate-move text-xl' />,
   },
   {
     id: 4,
@@ -255,8 +255,6 @@ export const projectData = [
     title: 'Social Media Application to show my skill to classmates.',
     images: [<FaReact />, <SiMongodb />, <FaNodeJs />, <SiRedux />],
     pImage: fourth,
-    buttonSvg: (
-      <MdOutlineKeyboardArrowRight className='animate-bounce text-xl' />
-    ),
+    buttonSvg: <MdOutlineKeyboardArrowRight className='animate-move text-xl' />,
   },
 ];
