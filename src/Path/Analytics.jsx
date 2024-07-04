@@ -3,7 +3,7 @@ const Analytics = () => {
     <main className='max-w-[90vw] sm:max-w-[80vw] lg:max-w-[70vw]  mx-auto mt-24'>
       <section className='flex flex-col gap-6 '>
         <div className='flex items-start justify-start flex-col gap-2'>
-          <h1 className='text-3xl font-bold tracking-tight md:text-5xl'>
+          <h1 className='text-3xl font-bold tracking-tight md:text-5xl '>
             Analytics
           </h1>
           <p className='text-gray-300 leading-7'>

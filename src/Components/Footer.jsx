@@ -47,11 +47,11 @@ const Footer = () => {
         </ul>
         <div className='flex items-center justify-center flex-col gap-2'>
           <h1 className='text-xl tracking-widest'>Reach me out</h1>
-          <div className='flex items-center justify-center gap-5 text-2xl text-[#9858D3]'>
+          <div className='flex items-center justify-center gap-5 text-2xl text-white '>
             <div
               data-tip={toolTip}
               onClick={handleCopy}
-              className={`${isHovered ? 'tooltip' : ''}`}
+              className={`${isHovered ? 'tooltip' : ''} hover:text-[#9858D3]`}
               onMouseEnter={() => setIsHovered(true)}
               onMouseLeave={() => setIsHovered(false)}
             >
@@ -62,7 +62,9 @@ const Footer = () => {
               return (
                 <div
                   key={id}
-                  className={`${isHovered ? 'tooltip' : ''}`}
+                  className={`${
+                    isHovered ? 'tooltip' : ''
+                  } hover:text-[#9858D3]`}
                   data-tip={tip}
                   onMouseEnter={() => setIsHovered(true)}
                   onMouseLeave={() => setIsHovered(false)}

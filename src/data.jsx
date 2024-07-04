@@ -35,31 +35,43 @@ import { Link } from 'react-router-dom';
 export default [
   {
     id: 1,
-    heading: 'CIB on the Mobile		',
-    para: `Take your client onboard seamlessly by our amazing
-tool of digital onboard process.`,
+    heading: 'Responsive Web Application ',
+    para: [
+      `Developed a highly responsive web application using React and Tailwind CSS, ensuring compatibility across various devices and browsers. `,
+      ` Improved page load time by 30% through efficient coding practices and optimization techniques. Collaborated with backend developers to integrate RESTful APIs seamlessly.`,
+    ],
     image: firstImg,
+    url: 'https://www.w3schools.com/css/css_rwd_intro.asp',
   },
   {
     id: 2,
-    heading: 'CIB on the Mobile		',
-    para: `Take your client onboard seamlessly by our amazing
-tool of digital onboard process.`,
+    heading: 'Single Page Application SPA',
+    para: [
+      `Architected and implemented a single page application (SPA) using React.js, enhancing the application's speed and responsiveness.`,
+      ` Integrated state management with Redux to handle complex user interactions and data flow. Coordinated with UX designers to ensure a seamless user experience.`,
+    ],
     image: secondImg,
+    url: 'https://medium.com/@diegogauna.developer/creating-a-single-page-app-spa-in-react-using-react-router-db37b89b3f73',
   },
   {
     id: 3,
-    heading: 'CIB on the Mobile		',
-    para: `Take your client onboard seamlessly by our amazing
-tool of digital onboard process.`,
+    heading: 'Interactive Dashboard ',
+    para: [
+      `Created an interactive and visually appealing dashboard for data visualization. Optimized the dashboard for performance, resulting in a 40% faster data rendering time.`,
+      `Ensured the application was accessible and user-friendly, receiving positive feedback from stakeholders.`,
+    ],
     image: thirdImg,
+    url: 'https://www.phocassoftware.com/resources/blog/what-is-an-interactive-dashboard',
   },
   {
     id: 4,
-    heading: 'CIB on the Mobile		',
-    para: `Take your client onboard seamlessly by our amazing
-tool of digital onboard process.`,
+    heading: 'Corporate Website Redesign',
+    para: [
+      `Focusing on modern design principles and improved user experience. Utilized HTML5, CSS3, and JavaScript,React and Tailwind to create responsive layouts`,
+      `  and interactive elements. Conducted user testing sessions to gather feedback and iteratively enhance the website.`,
+    ],
     image: fourthImg,
+    url: 'https://react.dev/',
   },
 ];
 

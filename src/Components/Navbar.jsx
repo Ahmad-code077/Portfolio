@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+import { Link, Route, NavLink } from 'react-router-dom';
 import logo from '../assets/logo/Logo.svg';
 import about from '../Path/About';
 const Navbar = () => {
@@ -11,14 +11,22 @@ const Navbar = () => {
           </div>
         </Link>
         <ul className='flex justify-between text-white w-44 sm:w-72 '>
-          <li className='text-base font-semibold hover:text-[#7127BA] sm:text-xl '>
-            <Link to={'/'}>Home</Link>
+          <li
+            className={` text-base font-semibold hover:text-[#7127BA] sm:text-xl `}
+          >
+            <NavLink exact={'true'} to={'/'} className='active-link'>
+              Home
+            </NavLink>
           </li>
           <li className='text-base font-semibold hover:text-[#7127BA] sm:text-xl '>
-            <Link to={'/about'}>About</Link>
+            <NavLink to={'/about'} className='active-link'>
+              About
+            </NavLink>
           </li>
           <li className='text-base font-semibold hover:text-[#7127BA] sm:text-xl '>
-            <Link to={'/project'}>Project</Link>
+            <NavLink to={'/project'} className='active-link'>
+              Project
+            </NavLink>
           </li>
         </ul>
       </nav>
