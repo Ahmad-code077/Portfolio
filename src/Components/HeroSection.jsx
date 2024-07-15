@@ -1,6 +1,6 @@
 import gradient from '../assets/hero_images/Gradient.svg';
-import me from '../assets/hero_images/Me.svg';
-import arrow from '../assets/hero_images/Arrow.svg';
+import me from '../assets/hero_images/Me.png';
+import arrow from '../assets/hero_images/Arrow.png';
 
 const HeroSection = () => {
   return (

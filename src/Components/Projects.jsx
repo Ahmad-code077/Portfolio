@@ -1,6 +1,6 @@
 import project1 from '../assets/Project/proj1.png';
 import project2 from '../assets/Project/Game.png';
-import iconSvg from '../assets/Project/icon.svg';
+import iconSvg from '../assets/Project/icon.png';
 import gradient from '../assets/hero_images/Gradient.svg';
 const Projects = () => {
   return (
@@ -37,7 +37,6 @@ const Projects = () => {
                 </p>
               </div>
               <div className='flex gap-5 w-40 p-8'>
-                <img src={iconSvg} alt='icon' />
                 <img src={iconSvg} alt='icon' />
               </div>
             </div>
@@ -98,7 +97,6 @@ const Projects = () => {
                 </p>
               </div>
               <div className='flex gap-5 w-40 p-8'>
-                <img src={iconSvg} alt='icon' />
                 <img src={iconSvg} alt='icon' />
               </div>
             </div>
