@@ -5,7 +5,10 @@ import gradient from '../assets/hero_images/Gradient.svg';
 const Projects = () => {
   return (
     <>
-      <section className='mt-24 sm:mt-48  max-w-[87vw] mx-auto '>
+      <section
+        className='mt-24 sm:mt-48  max-w-[87vw] mx-auto'
+        data-aos='zoom-in-down'
+      >
         <div className='flex relative items-center justify-center'>
           <img
             src={gradient}
@@ -57,7 +60,10 @@ const Projects = () => {
       </section>
 
       {/* second section */}
-      <section className='mt-12 sm:mt-48 max-w-[85vw] mx-auto'>
+      <section
+        className='mt-12 sm:mt-48 max-w-[85vw] mx-auto'
+        data-aos='zoom-in-up'
+      >
         <div className='flex relative items-center justify-start'>
           <img
             src={gradient}

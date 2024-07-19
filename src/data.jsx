@@ -31,7 +31,6 @@ import firstImg from '../src/assets/data_images/first.png';
 import secondImg from '../src/assets/data_images/second.png';
 import thirdImg from '../src/assets/data_images/third.png';
 import fourthImg from '../src/assets/data_images/fourth.png';
-import { Link } from 'react-router-dom';
 export default [
   {
     id: 1,

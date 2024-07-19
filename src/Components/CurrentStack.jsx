@@ -5,7 +5,11 @@ const CurrentStack = () => {
   let SecondRowSkill = SkillsIconData.slice(7);
 
   return (
-    <section className=' mt-20 mx-auto  sm:mt-28 mb-8'>
+    <section
+      className=' mt-20 mx-auto  sm:mt-28 mb-8'
+      data-aos='fade-up'
+      data-aos-duration='1000'
+    >
       <h1 className='text-2xl md:3xl mb-8 text-center mx-auto'>
         Skill Proficiency: <span className='text-[#7127BA]'> Embracing </span>{' '}
         the Learning Curve

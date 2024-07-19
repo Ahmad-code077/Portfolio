@@ -1,6 +1,9 @@
 const SubHero = () => {
   return (
-    <section className='mt-6 max-w-[80vw] mx-auto md:max-w-[60vw]'>
+    <section
+      className='mt-6 max-w-[80vw] mx-auto md:max-w-[60vw]'
+      data-aos='fade-up'
+    >
       <div>
         <h1 className='text-4xl'>I'm a Frontend Developer. </h1>
 

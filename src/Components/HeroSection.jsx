@@ -5,7 +5,7 @@ import arrow from '../assets/hero_images/Arrow.png';
 const HeroSection = () => {
   return (
     <>
-      <section className='mt-20'>
+      <section className='mt-20' data-aos='fade-up'>
         <div className=' max-w-[80vw] mx-auto my-0 sm:flex sm:max-w-[80vw] md:max-w-[70vw]'>
           <div className='relative'>
             <div className=' flex absolute left-20 top-[-12px] sm:w-[277px] sm:left-[156px] '>
@@ -28,7 +28,11 @@ const HeroSection = () => {
               />
             </div>
           </div>
-          <div className='relative sm:flex sm:flex-col sm:justify-center '>
+          <div
+            className='relative sm:flex sm:flex-col sm:justify-center '
+            data-aos='fade-up'
+            data-aos-duration='1600'
+          >
             <p className='font-[400] text-[0.675rem]  sm:text-[0.874rem]'>
               A Developer who
             </p>

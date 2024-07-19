@@ -2,7 +2,7 @@ import cutt from '../assets/CurrentStack/Skills-2.svg';
 import { projectData } from '../data';
 const ProjectLink = () => {
   return (
-    <main className='mt-20'>
+    <main className='mt-20' data-aos='zoom-in-down'>
       <section className='font-poppins '>
         <div className='flex flex-col gap-6 max-w-[88vw] md:max-w-[90vw] mx-auto'>
           <div className='flex justify-start flex-col items-start gap-3 pb-5'>

@@ -1,6 +1,9 @@
 const Analytics = () => {
   return (
-    <main className='max-w-[90vw] sm:max-w-[80vw] lg:max-w-[70vw]  mx-auto mt-24'>
+    <main
+      className='max-w-[90vw] sm:max-w-[80vw] lg:max-w-[70vw]  mx-auto mt-24'
+      data-aos='fade-right'
+    >
       <section className='flex flex-col gap-6 '>
         <div className='flex items-start justify-start flex-col gap-2'>
           <h1 className='text-3xl font-bold tracking-tight md:text-5xl '>

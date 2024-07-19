@@ -1,9 +1,8 @@
 import data from '../data';
 import gradient from '../assets/hero_images/Gradient.svg';
 const WorkExp = () => {
-  console.log(data);
   return (
-    <section className='max-w-[80vw]  mx-auto mt-12'>
+    <section className='max-w-[80vw]  mx-auto mt-12' data-aos='fade-up'>
       <h2 className='text-2xl p-6'>Work Experience</h2>
       <div className='relative flex text-center justify-center'>
         <img

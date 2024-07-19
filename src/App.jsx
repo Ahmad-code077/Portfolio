@@ -1,5 +1,5 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import React, { lazy, Suspense } from 'react';
+import React, { lazy, Suspense, useEffect } from 'react';
 import CurrentStack from './Components/CurrentStack';
 import Footer from './Components/Footer';
 import HeroSection from './Components/HeroSection';
@@ -9,6 +9,8 @@ import SubHero from './Components/SubHero';
 import WorkExp from './Components/WorkExp';
 import NoPage from './Path/NoPage';
 import Loading from './Components/Loading';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const About = lazy(() => import('./Path/About'));
 const ProjectLink = lazy(() => import('./Path/ProjectLink'));
@@ -20,6 +22,14 @@ const Guestbook = lazy(() => import('./Path/Guestbook'));
 const Subscribe = lazy(() => import('./Path/Subscribe'));
 
 const App = () => {
+  useEffect(() => {
+    AOS.init({
+      offset: 120,
+      duration: 900,
+
+      mirror: false, // whether elements should animate out while scrolling past them
+    });
+  }, []);
   return (
     <>
       <BrowserRouter>
