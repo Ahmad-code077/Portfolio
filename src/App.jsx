@@ -41,11 +41,13 @@ const App = () => {
               path='/'
               element={
                 <>
-                  <HeroSection />
-                  <SubHero />
-                  <WorkExp />
-                  <CurrentStack />
-                  <Projects />
+                  <div className='max-w-[90vw] sm:max-w-[80vw] md:max-w-[70vw] lg:max-w-[60vw] xl:max-w-[70vw] 2xl:max-w-[46vw] mx-auto'>
+                    <HeroSection />
+                    <SubHero />
+                    <WorkExp />
+                    <CurrentStack />
+                    <Projects />
+                  </div>
                 </>
               }
             />
