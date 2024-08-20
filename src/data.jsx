@@ -1,36 +1,34 @@
-import { FaGithub } from 'react-icons/fa';
 import { FaLinkedin } from 'react-icons/fa6';
-import { SiMongodb } from 'react-icons/si';
-import { RiNextjsLine } from 'react-icons/ri';
-import { FaReact } from 'react-icons/fa';
-import { IoLogoJavascript } from 'react-icons/io5';
-import { RiTailwindCssFill } from 'react-icons/ri';
-import { IoLogoVercel } from 'react-icons/io5';
-import { FaNodeJs } from 'react-icons/fa';
-import first from './assets/ProjectLink/Firstimage.jpeg';
-import second from './assets/ProjectLink/Secondimage.jpeg';
-import third from './assets/ProjectLink/Thirdimage.jpeg';
-import fourth from './assets/ProjectLink/Fourthimage.jpeg';
+import { SiMongodb, SiRedux } from 'react-icons/si';
+import { RiNextjsLine, RiTailwindCssFill } from 'react-icons/ri';
+import { FaReact, FaNodeJs, FaGithub } from 'react-icons/fa';
+import { IoLogoJavascript, IoLogoVercel } from 'react-icons/io5';
 import { MdOutlineKeyboardArrowRight } from 'react-icons/md';
-import { SiRedux } from 'react-icons/si';
-import rect1 from './assets/SkillsIcon/Rectangle 1.png';
-import rect2 from './assets/SkillsIcon/Rectangle 2.png';
-import rect3 from './assets/SkillsIcon/tailwind 3.png';
-import rect4 from './assets/SkillsIcon/Rectangle 4.png';
-import rect5 from './assets/SkillsIcon/Rectangle 5.png';
-import rect6 from './assets/SkillsIcon/Rectangle 6.png';
-import rect7 from './assets/SkillsIcon/Rectangle 7.png';
-import rect8 from './assets/SkillsIcon/Rectangle 8.png';
-import rect9 from './assets/SkillsIcon/Rectangle 9.png';
-import rect10 from './assets/SkillsIcon/Rectangle 10.png';
-import rect11 from './assets/SkillsIcon/Rectangle 11.png';
-import rect12 from './assets/SkillsIcon/Rectangle 12.png';
-import rect13 from './assets/SkillsIcon/Rectangle 13.png';
 
-import firstImg from '../src/assets/data_images/first.png';
-import secondImg from '../src/assets/data_images/second.png';
-import thirdImg from '../src/assets/data_images/third.png';
-import fourthImg from '../src/assets/data_images/fourth.png';
+import {
+  first,
+  second,
+  third,
+  fourth,
+  rect1,
+  rect2,
+  rect3,
+  rect4,
+  rect5,
+  rect6,
+  rect7,
+  rect8,
+  rect9,
+  rect10,
+  rect11,
+  rect12,
+  rect13,
+  firstImg,
+  secondImg,
+  thirdImg,
+  fourthImg,
+} from './assets';
+
 export default [
   {
     id: 1,

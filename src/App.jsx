@@ -1,14 +1,16 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import React, { lazy, Suspense, useEffect } from 'react';
-import CurrentStack from './Components/CurrentStack';
-import Footer from './Components/Footer';
-import HeroSection from './Components/HeroSection';
-import Navbar from './Components/Navbar';
-import Projects from './Components/Projects';
-import SubHero from './Components/SubHero';
-import WorkExp from './Components/WorkExp';
+import {
+  CurrentStack,
+  Footer,
+  HeroSection,
+  Navbar,
+  Projects,
+  SubHero,
+  WorkExp,
+  Loading,
+} from './Components';
 import NoPage from './Path/NoPage';
-import Loading from './Components/Loading';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 

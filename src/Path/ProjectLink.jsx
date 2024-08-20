@@ -1,4 +1,4 @@
-import cutt from '../assets/CurrentStack/Skills-2.svg';
+import { MdArrowOutward } from 'react-icons/md';
 import { projectData } from '../data';
 const ProjectLink = () => {
   return (
@@ -45,6 +45,14 @@ const ProjectLink = () => {
               );
             })}
           </div>
+
+          <a
+            href='https://contentfull-projects.netlify.app/'
+            target='_'
+            className='font-extrabold text-3xl text-center flex items-center justify-center sm:gap-2 hover:scale-105 duration-150'
+          >
+            Real World Projects <MdArrowOutward />
+          </a>
         </div>
       </section>
     </main>
