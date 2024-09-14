@@ -6,3 +6,4 @@ export { default as SubHero } from './SubHero';
 export { default as WorkExp } from './WorkExp';
 export { default as Loading } from './Loading';
 export { default as Navbar } from './Navbar';
+export { default as Layout } from './Layout';

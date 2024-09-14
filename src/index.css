@@ -11,7 +11,7 @@ html {
 .link {
   position: relative;
   display: flex;
-  height: 1.6rem;
+  height: 2rem;
   align-items: center;
   justify-content: center;
   border-radius: 0.475rem;
@@ -23,17 +23,11 @@ html {
   letter-spacing: 0.05em;
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-  width: 90.78px;
+  width: max-content;
 }
 
 .link:hover {
   --tw-text-opacity: 0.8;
-}
-
-@media (min-width: 768px) {
-  .link {
-    width: 90.78px;
-  }
 }
 
 .link:before {
@@ -75,7 +69,7 @@ html {
   position: absolute;
   left: 50%;
   top: -0.75rem;
-  width: -moz-max-content;
+
   width: max-content;
   max-width: 20rem;
   --tw-translate-x: -50%;

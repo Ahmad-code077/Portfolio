@@ -48,7 +48,7 @@ const About = () => {
               <h1 className='text-xl md:text-2xl font-semibold tracking-tight'>
                 Current Favorite Tech Stack
               </h1>
-              <div className='flex justify-center gap-2 md:gap-3 text-whiteColor text-3xl  md:text-4xl py-8 sm:py-6'>
+              <div className='flex justify-center gap-2  md:gap-3 text-whiteColor text-3xl  md:text-4xl py-8 sm:py-6 flex-wrap'>
                 {stacks.map((item) => {
                   const { id, tip, url, image } = item;
                   return (

@@ -1,8 +1,14 @@
 import { FaLinkedin } from 'react-icons/fa6';
-import { SiMongodb, SiRedux } from 'react-icons/si';
+import {
+  SiDaisyui,
+  SiMongodb,
+  SiPrisma,
+  SiRedux,
+  SiTypescript,
+} from 'react-icons/si';
 import { RiNextjsLine, RiTailwindCssFill } from 'react-icons/ri';
 import { FaReact, FaNodeJs, FaGithub } from 'react-icons/fa';
-import { IoLogoJavascript, IoLogoVercel } from 'react-icons/io5';
+import { IoLogoJavascript } from 'react-icons/io5';
 import { MdOutlineKeyboardArrowRight } from 'react-icons/md';
 
 import {
@@ -32,20 +38,18 @@ import {
 export default [
   {
     id: 1,
-    heading: 'Responsive Web Application ',
+    heading: 'Responsive Application ',
     para: [
       `Developed a highly responsive web application using React and Tailwind CSS, ensuring compatibility across various devices and browsers. `,
-      ` Improved page load time by 30% through efficient coding practices and optimization techniques. Collaborated with backend developers to integrate RESTful APIs seamlessly.`,
     ],
     image: firstImg,
     url: 'https://www.w3schools.com/css/css_rwd_intro.asp',
   },
   {
     id: 2,
-    heading: 'Single Page Application SPA',
+    heading: 'Single Page Application ',
     para: [
       `Architected and implemented a single page application (SPA) using React.js, enhancing the application's speed and responsiveness.`,
-      ` Integrated state management with Redux to handle complex user interactions and data flow. Coordinated with UX designers to ensure a seamless user experience.`,
     ],
     image: secondImg,
     url: 'https://medium.com/@diegogauna.developer/creating-a-single-page-app-spa-in-react-using-react-router-db37b89b3f73',
@@ -55,17 +59,15 @@ export default [
     heading: 'Interactive Dashboard ',
     para: [
       `Created an interactive and visually appealing dashboard for data visualization. Optimized the dashboard for performance, resulting in a 40% faster data rendering time.`,
-      `Ensured the application was accessible and user-friendly, receiving positive feedback from stakeholders.`,
     ],
     image: thirdImg,
     url: 'https://www.phocassoftware.com/resources/blog/what-is-an-interactive-dashboard',
   },
   {
     id: 4,
-    heading: 'Corporate Website Redesign',
+    heading: 'Corporate Redesign',
     para: [
       `Focusing on modern design principles and improved user experience. Utilized HTML5, CSS3, and JavaScript,React and Tailwind to create responsive layouts`,
-      `  and interactive elements. Conducted user testing sessions to gather feedback and iteratively enhance the website.`,
     ],
     image: fourthImg,
     url: 'https://react.dev/',
@@ -128,14 +130,12 @@ export const stacks = [
     id: 2,
     tip: 'React Js',
     url: 'https://react.dev/',
-
     image: <FaReact className='hover:scale-105 hover:text-[#7127BA]' />,
   },
   {
     id: 3,
     tip: 'JavaScript',
     url: 'https://www.javascript.com/',
-
     image: (
       <IoLogoJavascript className='hover:scale-105 hover:text-[#7127BA]' />
     ),
@@ -144,24 +144,34 @@ export const stacks = [
     id: 4,
     tip: 'Tailwind Css',
     url: 'https://tailwindcss.com/',
-
     image: (
       <RiTailwindCssFill className='hover:scale-105 hover:text-[#7127BA]' />
     ),
   },
   {
     id: 5,
-    tip: 'SWR By Vercel',
-    url: 'https://swr.vercel.app/',
-
-    image: <IoLogoVercel className='hover:scale-105 hover:text-[#7127BA]' />,
+    tip: 'Prisma',
+    url: 'https://www.prisma.io',
+    image: <SiPrisma className='hover:scale-105 hover:text-[#7127BA]' />,
   },
+
   {
     id: 6,
-    tip: 'Node Js',
-    url: 'https://nodejs.org/en/',
-
-    image: <FaNodeJs className='hover:scale-105 hover:text-[#7127BA]' />,
+    tip: 'TypeScript',
+    url: 'https://www.typescriptlang.org/',
+    image: <SiTypescript className='hover:scale-105 hover:text-[#7127BA]' />,
+  },
+  {
+    id: 7,
+    tip: 'Daisy UI',
+    url: 'https://daisyui.com/',
+    image: <SiDaisyui className='hover:scale-105 hover:text-[#7127BA]' />,
+  },
+  {
+    id: 8,
+    tip: 'Redux-Toolkit',
+    url: 'https://redux-toolkit.js.org/',
+    image: <SiRedux className='hover:scale-105 hover:text-[#7127BA]' />,
   },
 ];
 export const SkillsIconData = [

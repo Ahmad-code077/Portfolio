@@ -1,4 +1,5 @@
 import { FaLightbulb } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 const NoPage = () => {
   return (
     <section className=''>
@@ -7,6 +8,12 @@ const NoPage = () => {
         <h1 className='text-3xl md:text-5xl tracking-wide font-bold'>
           404 Not found
         </h1>
+        <Link
+          className='bg-yellow-300 px-4 py-2 text-xl text-[#9858D3] font-bold rounded'
+          to={'/'}
+        >
+          Back Home
+        </Link>
       </div>
     </section>
   );
