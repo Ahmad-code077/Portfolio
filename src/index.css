@@ -8,6 +8,10 @@ html {
   scroll-behavior: smooth;
 }
 
+body::-webkit-scrollbar {
+  display: none;
+}
+
 .link {
   position: relative;
   display: flex;
