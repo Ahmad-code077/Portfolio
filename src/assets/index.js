@@ -12,7 +12,7 @@ export { default as rect11 } from './SkillsIcon/Rectangle 11.png';
 export { default as rect12 } from './SkillsIcon/Rectangle 12.png';
 export { default as rect13 } from './SkillsIcon/Rectangle 13.png';
 
-export { default as first } from './ProjectLink/Firstimage.jpeg';
+export { default as first } from './ProjectLink/proj14.png';
 export { default as second } from './ProjectLink/Secondimage.jpeg';
 export { default as third } from './ProjectLink/Thirdimage.jpeg';
 export { default as fourth } from './ProjectLink/Fourthimage.jpeg';

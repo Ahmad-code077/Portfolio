@@ -6,7 +6,7 @@ import {
   SiRedux,
   SiTypescript,
 } from 'react-icons/si';
-import { RiNextjsLine, RiTailwindCssFill } from 'react-icons/ri';
+import { RiNextjsFill, RiNextjsLine, RiTailwindCssFill } from 'react-icons/ri';
 import { FaReact, FaNodeJs, FaGithub } from 'react-icons/fa';
 import { IoLogoJavascript } from 'react-icons/io5';
 import { MdOutlineKeyboardArrowRight } from 'react-icons/md';
@@ -245,10 +245,9 @@ export const SkillsIconData = [
 export const projectData = [
   {
     id: 1,
-    heading: 'E-learning',
-    title:
-      'E-learning Application with 3 role including student , teacher & admin',
-    images: [<FaReact />, <SiMongodb />, <FaNodeJs />],
+    heading: 'Instagram Video Downloader',
+    title: 'Download Video by pasting link',
+    images: [<FaReact />, <FaNodeJs />, <RiNextjsFill />],
     pImage: first,
     buttonSvg: <MdOutlineKeyboardArrowRight className='animate-move text-xl' />,
   },
