@@ -85,8 +85,7 @@ export const linkImages = [
   {
     id: 2,
     tip: 'Find me on Linkedin',
-    url: 'https://www.linkedin.com/in/muhammad-ahmad-5847502b0/',
-
+    url: 'https://www.linkedin.com/in/muhammad-ahmad077/',
     image: <FaLinkedin />,
   },
 ];
