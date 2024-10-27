@@ -1,5 +1,5 @@
-import project1 from '../assets/Project/proj1.png';
-import project2 from '../assets/Project/Game.png';
+import project1 from '../assets/Project/proj14.png';
+import project2 from '../assets/Project/proj15.png';
 import iconSvg from '../assets/Project/icon.png';
 import gradient from '../assets/hero_images/Gradient.svg';
 const Projects = () => {
@@ -24,18 +24,16 @@ const Projects = () => {
             <div>
               <span className='text-[#9857D3]'>Featured Project</span>
               <h1 className='text-3xl text-[#CCD6F6] font-semibold pb-8 '>
-                Shopping Cart
+                Instagram Video Downloader
               </h1>
               <div className=' py-2 px-3 bg-firstBox sm:relative z-10 sm:left-7 rounded-[14px]'>
-                <p className='font-medium text-xs text-gray-300 '>
-                  Welcome to our innovative Shopping Cart project, a sleek and
-                  efficient tool designed to enhance your online shopping
-                  experience.{' '}
+                <p className='font-medium text-base text-gray-300 '>
+                  A simple yet powerful tool for downloading Instagram videos
+                  instantly. Just paste the video link, and our downloader
+                  handles the rest—quick
                   <span className=' max-[470px]:hidden'>
-                    {' '}
-                    This project provides a user-friendly interface where
-                    customers can effortlessly browse products, add items to
-                    their cart, and review their selections with ease
+                    , easy, and reliable for saving your favorite content in
+                    high quality!
                   </span>
                 </p>
               </div>
@@ -45,7 +43,7 @@ const Projects = () => {
             </div>
             <div className=' rounded-[14px] max-w-md mx-auto sm:mx-0 shadow-[-11px_-9px_#2B0B3A] sm:hover:scale-[1.03] duration-100 ease-in-out sm:shadow-[-27px_-18px_#2B0B3A]'>
               <a
-                href='https://shoping-cart-react-reduxtoolkit.netlify.app/'
+                href='https://instagram-video-dowloader.vercel.app/'
                 target='_blank'
               >
                 <img
@@ -72,10 +70,7 @@ const Projects = () => {
           />
           <div className='flex flex-col sm:flex-row font-poppins max-w-[90vw] mx-auto  md:max-w-[80vw] lg:max-w-[70vw] '>
             <div className='rounded-[14px] max-w-md mx-auto sm:mx-0 shadow-[-11px_-9px_#2B0B3A] sm:hover:scale-[1.03] duration-100 ease-in-out sm:shadow-[-27px_-18px_#2B0B3A] order-2 sm:order-1'>
-              <a
-                href='https://resturant-menu-react-app.netlify.app/'
-                target='_blank'
-              >
+              <a href='https://beester.beesterapp.com/' target='_blank'>
                 <img
                   className='h-full object-cover rounded-[14px] sm:hover:scale-[1.03] duration-100 ease-in-out'
                   src={project2}
@@ -87,18 +82,17 @@ const Projects = () => {
               <div className='sm:pl-3 md:pl-8'>
                 <span className='text-[#9857D3]'>Featured Project</span>
                 <h1 className='text-3xl text-[#CCD6F6] font-semibold pb-8 '>
-                  Restaurant Menu
+                  Beester Game
                 </h1>
               </div>
               <div className=' py-2 px-3 bg-secondBox sm:relative z-10 sm:right-7 rounded-[14px]'>
-                <p className='font-medium text-xs text-gray-300'>
-                  Welcome to our culinary haven.Our menu is a symphony of
-                  flavors, combining the freshest ingredients with innovative
-                  culinary techniques.{' '}
+                <p className='font-medium text-base text-gray-300'>
+                  Beester is an exciting, fully functional game where players
+                  guide a lively character through fun challenges and obstacles,
+                  much like the classic Hamster game.
                   <span className='max-[470px]:hidden'>
-                    From succulent appetizers to mouth-watering main courses and
-                    decadent desserts, every item on our menu is designed to
-                    provide a delightful dining experience.
+                    With smooth controls and engaging gameplay, Beester offers
+                    endless fun for all ages!
                   </span>
                 </p>
               </div>
