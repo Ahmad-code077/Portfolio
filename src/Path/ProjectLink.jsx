@@ -14,7 +14,8 @@ const ProjectLink = () => {
 
           <div className='grid grid-cols-1 gap-3 md:grid-cols-2 lg:grid-cols-3 items-start justify-start'>
             {projectData.map((item) => {
-              const { id, heading, title, images, pImage, buttonSvg } = item;
+              const { id, heading, title, images, pImage, buttonSvg, link } =
+                item;
 
               return (
                 <div
@@ -37,8 +38,10 @@ const ProjectLink = () => {
                     src={pImage}
                     alt='Project image'
                   />
-                  <div className='footer-link w-28 mt-5 flex items-center justify-start hover:scale-x-105 text-[#7127BA] border-b border-dotted'>
-                    <a href=''>See More</a>
+                  <div className='footer-link w-28 mt-5 flex items-center justify-start hover:scale-x-105 border-b border-dotted'>
+                    <a href={link} target='_'>
+                      Visit Live
+                    </a>
                     {buttonSvg}
                   </div>
                 </div>
@@ -51,7 +54,7 @@ const ProjectLink = () => {
             target='_'
             className='font-extrabold text-3xl text-center flex items-center justify-center sm:gap-2 hover:scale-105 duration-150'
           >
-            Real World Projects <MdArrowOutward />
+            More Projects <MdArrowOutward />
           </a>
         </div>
       </section>

@@ -13,9 +13,9 @@ export { default as rect12 } from './SkillsIcon/Rectangle 12.png';
 export { default as rect13 } from './SkillsIcon/Rectangle 13.png';
 
 export { default as first } from './ProjectLink/proj14.png';
-export { default as second } from './ProjectLink/Secondimage.jpeg';
-export { default as third } from './ProjectLink/Thirdimage.jpeg';
-export { default as fourth } from './ProjectLink/Fourthimage.jpeg';
+export { default as second } from './ProjectLink/proj15.png';
+export { default as third } from './ProjectLink/proj13.png';
+export { default as fourth } from './ProjectLink/proj16.png';
 
 export { default as firstImg } from './data_images/first.png';
 export { default as secondImg } from './data_images/second.png';
