@@ -1,5 +1,5 @@
-import project1 from '../assets/Project/proj14.png';
-import project2 from '../assets/Project/proj15.png';
+import project1 from '../assets/ProjectLink/proj14.png';
+import project2 from '../assets/ProjectLink/proj15.png';
 import iconSvg from '../assets/Project/icon.png';
 import gradient from '../assets/hero_images/Gradient.svg';
 const Projects = () => {

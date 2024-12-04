@@ -5,9 +5,6 @@ export default {
     extend: {
       fontFamily: {
         Abril: ['Abril Fatface', 'sans'],
-        // arrow: ['Preahvihear'],
-        // nav: ['Plus Jakarta Sans'],
-        // poppins: ['Poppins', 'sans-serif'],
       },
       borderRadius: {
         customEgg: '87% 13% 86% 14% / 85% 15% 85% 15%',
