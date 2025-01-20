@@ -3,16 +3,16 @@ const About = () => {
   return (
     <main>
       <section className='mt-20 font-poppins' data-aos='zoom-in-down'>
-        <div className='flex items-start gap-5 justify-start max-w-[90vw] sm:max-w-[80vw] md:max-w-[70vw] lg:max-w-[60vw] flex-col mx-auto'>
-          <div className='flex items-start justify-start flex-col gap-2'>
-            <h1 className='text-3xl font-bold tracking-tight md:text-5xl'>
+        <div className='flex items-center gap-5 justify-center  flex-col '>
+          <div className='flex items-center justify-center flex-col gap-2'>
+            <h1 className='text-3xl font-bold tracking-tight md:text-5xl text-center'>
               About
             </h1>
             <h1 className='text-[#7127BA] text-3xl md:text-4xl font-bold '>
               Ahmad Mamoon
             </h1>
           </div>
-          <div className='flex items-start justify-start flex-col leading-7 gap-5 text-gray-300'>
+          <div className='flex items-center justify-center  text-base sm:text-lg  text-center flex-col leading-7 gap-5 text-gray-300'>
             <p>
               Hello i'm Ahmad. I am a dedicated frontend developer with a
               passion for creating visually appealing and user-friendly web
@@ -58,16 +58,6 @@ const About = () => {
                     </div>
                   );
                 })}
-              </div>
-              <div className='flex flex-col mt-12 mb-4 gap-5'>
-                <h1 className='text-2xl md:text-4xl font-semibold -tracking-normal'>
-                  Contact{' '}
-                </h1>
-                <p className='text-gray-300'>
-                  Do contact me if you need my opinion about web development.
-                  I’ll be happy to help! (find my email by just scrolling down a
-                  little bit)
-                </p>
               </div>
             </div>
           </div>

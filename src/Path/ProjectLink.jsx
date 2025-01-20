@@ -20,7 +20,7 @@ const ProjectLink = () => {
               return (
                 <div
                   key={id}
-                  className='flex flex-col p-4 md:gap-3  justify-start gap-2 border border-gray-600 rounded hover:scale-105 duration-100 ease-in-out h-full'
+                  className='flex flex-col p-4 md:gap-3  justify-start gap-2 border border-gray-600 rounded hover:scale-105 duration-300 ease-in-out h-full'
                 >
                   <div>
                     <h1 className='text-xl'>{heading}</h1>
