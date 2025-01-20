@@ -22,7 +22,11 @@ const CurrentStack = () => {
                 const { id, image, link } = item;
                 return (
                   <a href={link} target='_blank' key={id}>
-                    <div className=' h-5 w-5 rounded-[50%] bg-[#251C31]  min-[400px]:h-6 min-[400px]:w-6 sm:h-7 sm:w-7 lg:h-8 lg:w-8'>
+                    <div
+                      className={`${
+                        id === 4 && 'bg-white'
+                      }  h-5 w-5 rounded-[50%]   min-[400px]:h-6 min-[400px]:w-6 sm:h-7 sm:w-7 lg:h-8 lg:w-8`}
+                    >
                       <img
                         src={image}
                         alt='image'
@@ -36,13 +40,18 @@ const CurrentStack = () => {
             <div className='flex justify-center min-[400px]:gap-2 min-[550px]:gap-3 sm:gap-4 '>
               {SecondRowSkill.map((item) => {
                 const { id, image, link } = item;
+                console.log(id);
                 return (
                   <a href={link} target='_blank' key={id}>
-                    <div className=' h-5 w-5 rounded-[50%] bg-[#251C31] min-[400px]:h-6 min-[400px]:w-6  sm:h-7 sm:w-7 lg:h-8 lg:w-8'>
+                    <div
+                      className={` ${
+                        id === 10 && 'bg-white'
+                      } h-5 w-5 rounded-[50%] bg-[#251C31] min-[400px]:h-6 min-[400px]:w-6  sm:h-7 sm:w-7 lg:h-8 lg:w-8`}
+                    >
                       <img
                         src={image}
                         alt='image'
-                        className='object-contain p-[2px] h-full w-full'
+                        className='object-contain rounded-full p-[2px] h-full w-full'
                       />
                     </div>
                   </a>

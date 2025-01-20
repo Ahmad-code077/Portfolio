@@ -17,23 +17,23 @@ import {
   second,
   third,
   fourth,
-  rect1,
-  rect2,
-  rect3,
-  rect4,
-  rect5,
-  rect6,
-  rect7,
-  rect8,
-  rect9,
-  rect10,
-  rect11,
-  rect12,
-  rect13,
+  TypeScript,
+  javascript,
+  react,
+  nextjs,
+  redux,
+  tailwind,
+  css,
+  express,
   firstImg,
   secondImg,
   thirdImg,
   fourthImg,
+  shadcn,
+  git,
+  github,
+  node,
+  mongo,
 } from './assets';
 
 export default [
@@ -44,7 +44,7 @@ export default [
       `Developed a highly responsive web application using React and Tailwind CSS, ensuring compatibility across various devices and browsers. `,
     ],
     image: firstImg,
-    url: 'https://www.w3schools.com/css/css_rwd_intro.asp',
+    url: 'https://earning-app.vercel.app/',
   },
   {
     id: 2,
@@ -53,7 +53,7 @@ export default [
       `Architected and implemented a single page application (SPA) using React.js, enhancing the application's speed and responsiveness.`,
     ],
     image: secondImg,
-    url: 'https://medium.com/@diegogauna.developer/creating-a-single-page-app-spa-in-react-using-react-router-db37b89b3f73',
+    url: 'https://instagram-video-dowloader.vercel.app/',
   },
   {
     id: 3,
@@ -62,7 +62,7 @@ export default [
       `Created an interactive and visually appealing dashboard for data visualization. Optimized the dashboard for performance, resulting in a 40% faster data rendering time.`,
     ],
     image: thirdImg,
-    url: 'https://www.phocassoftware.com/resources/blog/what-is-an-interactive-dashboard',
+    url: 'https://digital-dashboard.netlify.app/profile/overview',
   },
   {
     id: 4,
@@ -71,7 +71,7 @@ export default [
       `Focusing on modern design principles and improved user experience. Utilized HTML5, CSS3, and JavaScript,React and Tailwind to create responsive layouts`,
     ],
     image: fourthImg,
-    url: 'https://react.dev/',
+    url: 'https://ahmad-nextjs-blogs.vercel.app/',
   },
 ];
 
@@ -141,6 +141,12 @@ export const stacks = [
     ),
   },
   {
+    id: 6,
+    tip: 'TypeScript',
+    url: 'https://www.typescriptlang.org/',
+    image: <SiTypescript className='hover:scale-105 hover:text-[#7127BA]' />,
+  },
+  {
     id: 4,
     tip: 'Tailwind Css',
     url: 'https://tailwindcss.com/',
@@ -148,24 +154,12 @@ export const stacks = [
       <RiTailwindCssFill className='hover:scale-105 hover:text-[#7127BA]' />
     ),
   },
-  {
-    id: 5,
-    tip: 'Prisma',
-    url: 'https://www.prisma.io',
-    image: <SiPrisma className='hover:scale-105 hover:text-[#7127BA]' />,
-  },
 
   {
-    id: 6,
-    tip: 'TypeScript',
-    url: 'https://www.typescriptlang.org/',
-    image: <SiTypescript className='hover:scale-105 hover:text-[#7127BA]' />,
-  },
-  {
     id: 7,
-    tip: 'Daisy UI',
-    url: 'https://daisyui.com/',
-    image: <SiDaisyui className='hover:scale-105 hover:text-[#7127BA]' />,
+    tip: 'ShadCn',
+    url: 'https://ui.shadcn.com/',
+    image: <SiShadcnui className='hover:scale-105 hover:text-[#7127BA]' />,
   },
   {
     id: 8,
@@ -177,67 +171,67 @@ export const stacks = [
 export const SkillsIconData = [
   {
     id: 1,
-    image: rect1,
-    link: 'https://www.figma.com/',
+    image: TypeScript,
+    link: 'https://www.typescriptlang.org/',
   },
   {
     id: 2,
-    image: rect2,
-    link: 'https://react.dev/',
-  },
-  {
-    id: 3,
-    image: rect3,
-    link: 'https://tailwindcss.com/',
-  },
-  {
-    id: 4,
-    image: rect4,
-    link: 'https://nodejs.org/en/',
-  },
-  {
-    id: 5,
-    image: rect5,
-    link: 'https://adobexdplatform.com/',
-  },
-  {
-    id: 6,
-    image: rect6,
+    image: javascript,
     link: 'https://www.javascript.com/',
   },
   {
+    id: 3,
+    image: react,
+    link: 'https://react.dev/',
+  },
+  {
+    id: 4,
+    image: nextjs,
+    link: 'https://nextjs.org/',
+  },
+  {
+    id: 5,
+    image: redux,
+    link: 'https://redux-toolkit.js.org/',
+  },
+  {
+    id: 6,
+    image: tailwind,
+    link: 'https://tailwindcss.com/',
+  },
+  {
     id: 7,
-    image: rect7,
+    image: css,
     link: 'https://www.w3.org/Style/CSS/',
   },
   {
     id: 8,
-    image: rect8,
-    link: 'https://redux-toolkit.js.org/',
+    image: shadcn,
+    link: 'https://ui.shadcn.com/',
   },
   {
     id: 9,
-    image: rect9,
-    link: 'https://nextjs.org/',
+    image: git,
+    link: 'https://git-scm.com/doc',
   },
   {
     id: 10,
-    image: rect10,
-    link: 'https://www.adobe.com/products/illustrator.html',
+    image: github,
+    link: 'https://github.com',
   },
   {
     id: 11,
-    image: rect11,
-    link: 'https://www.adobe.com/products/illustrator.html',
-  },
-  {
-    id: 12,
-    image: rect12,
+    image: express,
     link: 'https://expressjs.com/',
   },
   {
+    id: 12,
+    image: node,
+    link: 'https://nodejs.org/',
+  },
+  {
     id: 13,
-    image: rect13,
+    image: mongo,
     link: 'https://www.mongodb.com/',
   },
 ];
@@ -260,11 +254,11 @@ export const projectData = [
   },
   {
     id: 2,
-    heading: 'Beester Game',
-    title: 'Beester Game Like Hamster combat',
+    heading: 'Sky Innovations',
+    title: 'A Forward Thinking IT company',
     images: [<FaReact />, <FaNodeJs />, <SiMongodb />, <RiTailwindCssFill />],
     pImage: second,
-    link: 'https://beester.beesterapp.com/',
+    link: 'https://ideatech.ae/',
     buttonSvg: <MdOutlineKeyboardArrowRight className='animate-move text-xl' />,
   },
   {
