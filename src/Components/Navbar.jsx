@@ -3,8 +3,8 @@ import logo from '../assets/logo/Logo.svg';
 
 const Navbar = () => {
   return (
-    <header className='drop-shadow[0_6px_22px_-3px] font-nav'>
-      <nav className='flex items-center justify-evenly h-20 bg-[#1A0B2E]'>
+    <header className=' font-nav bg-[#1A0B2E] '>
+      <nav className='flex items-center justify-evenly lg:justify-between h-20  max-w-6xl mx-auto px-4 lg:px-8'>
         <Link to={'/'}>
           <div>
             <img src={logo} alt='Logo of site' />

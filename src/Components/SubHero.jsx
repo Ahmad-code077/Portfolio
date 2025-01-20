@@ -1,13 +1,10 @@
 const SubHero = () => {
   return (
-    <section
-      className='mt-6 max-w-[80vw] mx-auto md:max-w-[60vw]'
-      data-aos='fade-up'
-    >
+    <section className='mt-6 ' data-aos='fade-up'>
       <div>
-        <h1 className='text-4xl'>I'm a Frontend Developer. </h1>
+        <h1 className='text-4xl text-center'>Who I am ? </h1>
 
-        <p className='pt-7 text-gray-300'>
+        <p className='pt-7 text-gray-300  text-xl text-center sm:text-left px-2 sm:px-12 '>
           I am a passionate self-taught frontend developer with a keen eye for
           design and a strong commitment to creating seamless user experiences.
           My journey into the world of web development began out of curiosity
