@@ -12,7 +12,7 @@ const ProjectLink = () => {
             </p>
           </div>
 
-          <div className='grid grid-cols-1 gap-3 md:grid-cols-2 lg:grid-cols-3 items-start justify-start'>
+          <div className='grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3  items-start justify-start'>
             {projectData.map((item) => {
               const { id, heading, title, images, pImage, buttonSvg, link } =
                 item;

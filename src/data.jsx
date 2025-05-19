@@ -14,9 +14,11 @@ import { MdOutlineKeyboardArrowRight } from 'react-icons/md';
 
 import {
   first,
-  second,
+  trustyoursurgeon,
   third,
   fourth,
+  datingImage,
+  ecommerceImage,
   TypeScript,
   javascript,
   react,
@@ -35,6 +37,7 @@ import {
   node,
   mongo,
 } from './assets';
+import { TbBrandTypescript } from 'react-icons/tb';
 
 export default [
   {
@@ -238,6 +241,49 @@ export const SkillsIconData = [
 
 export const projectData = [
   {
+    id: 0,
+    heading: 'Next Dating App',
+    title: 'Modern dating platform ',
+    images: [
+      <RiNextjsFill />,
+      <TbBrandTypescript />,
+      <SiMongodb />,
+      <RiTailwindCssFill />,
+    ],
+    pImage: datingImage,
+    link: 'https://next-dating-app.vercel.app/',
+    buttonSvg: <MdOutlineKeyboardArrowRight className='animate-move text-xl' />,
+  },
+  {
+    id: 2,
+    heading: 'Trust Your Surgeon',
+    title: 'Connecting patients with surgeons worldwide',
+    images: [
+      <RiNextjsFill />,
+      <TbBrandTypescript />,
+      <SiMongodb />,
+      <RiTailwindCssFill />,
+      <SiShadcnui />,
+    ],
+    pImage: trustyoursurgeon,
+    link: 'https://trustyoursurgeon.com/', // replace with actual link if available
+    buttonSvg: <MdOutlineKeyboardArrowRight className='animate-move text-xl' />,
+  },
+  {
+    id: 5,
+    heading: 'E-Commerce App',
+    title: 'Full-featured online shopping platform',
+    images: [
+      <FaReact />,
+      <FaNodeJs />,
+      <SiMongodb />,
+      <RiTailwindCssFill />, // Styling with Tailwind CSS
+    ],
+    pImage: ecommerceImage, // replace with your actual image import
+    link: 'https://e-commerce-shopping-experience.vercel.app/', // replace with your deployed link if different
+    buttonSvg: <MdOutlineKeyboardArrowRight className='animate-move text-xl' />,
+  },
+  {
     id: 1,
     heading: 'Instagram Video Downloader',
     title: 'Download Video by pasting link',
@@ -252,15 +298,7 @@ export const projectData = [
     link: 'https://instagram-video-dowloader.vercel.app/',
     buttonSvg: <MdOutlineKeyboardArrowRight className='animate-move text-xl' />,
   },
-  {
-    id: 2,
-    heading: 'Sky Innovations',
-    title: 'A Forward Thinking IT company',
-    images: [<FaReact />, <FaNodeJs />, <SiMongodb />, <RiTailwindCssFill />],
-    pImage: second,
-    link: 'https://ideatech.ae/',
-    buttonSvg: <MdOutlineKeyboardArrowRight className='animate-move text-xl' />,
-  },
+
   {
     id: 3,
     heading: 'Digital Dashboard',

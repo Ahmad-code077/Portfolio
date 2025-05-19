@@ -40,7 +40,6 @@ const CurrentStack = () => {
             <div className='flex justify-center min-[400px]:gap-2 min-[550px]:gap-3 sm:gap-4 '>
               {SecondRowSkill.map((item) => {
                 const { id, image, link } = item;
-                console.log(id);
                 return (
                   <a href={link} target='_blank' key={id}>
                     <div

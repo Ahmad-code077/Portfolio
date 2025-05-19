@@ -13,9 +13,11 @@ export { default as mongo } from './SkillsIcon/mongo.png';
 export { default as node } from './SkillsIcon/node.png';
 
 export { default as first } from './ProjectLink/proj14.png';
-export { default as second } from './ProjectLink/proj15.png';
+export { default as trustyoursurgeon } from './ProjectLink/trustyoursurgeon.png';
 export { default as third } from './ProjectLink/proj13.png';
 export { default as fourth } from './ProjectLink/proj16.png';
+export { default as datingImage } from './ProjectLink/dating.png';
+export { default as ecommerceImage } from './ProjectLink/e-commerce.png';
 
 export { default as firstImg } from './data_images/first.png';
 export { default as secondImg } from './data_images/second.png';

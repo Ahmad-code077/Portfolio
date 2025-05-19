@@ -1,7 +1,6 @@
-import project1 from '../assets/ProjectLink/proj14.png';
-import project2 from '../assets/ProjectLink/proj15.png';
 import iconSvg from '../assets/Project/icon.png';
 import gradient from '../assets/hero_images/Gradient.svg';
+import { trustyoursurgeon, datingImage } from '../assets';
 const Projects = () => {
   return (
     <>
@@ -24,16 +23,16 @@ const Projects = () => {
             <div>
               <span className='text-[#9857D3]'>Featured Project</span>
               <h1 className='text-3xl text-[#CCD6F6] font-semibold pb-8 '>
-                Instagram Video Downloader
+                Love Finder Dating Site
               </h1>
               <div className=' py-2 px-3 bg-firstBox sm:relative z-10 sm:left-7 rounded-[14px]'>
                 <p className='font-medium text-base text-gray-300 '>
-                  A simple yet powerful tool for downloading Instagram videos
-                  instantly. Just paste the video link, and our downloader
-                  handles the rest—quick
+                  A modern real-time dating platform built with Next.js 15 App
+                  Router, featuring swipe-based matching, real-time chat, and
+                  dynamic user profiles.
                   <span className=' max-[470px]:hidden'>
-                    , easy, and reliable for saving your favorite content in
-                    high quality!
+                    &nbsp; Experience seamless connections and smart matchmaking
+                    powered by modern UI and backend tech.
                   </span>
                 </p>
               </div>
@@ -42,13 +41,10 @@ const Projects = () => {
               </div>
             </div>
             <div className=' rounded-[14px] max-w-md mx-auto sm:mx-0 shadow-[-11px_-9px_#2B0B3A] sm:hover:scale-[1.03] duration-300 ease-in-out sm:shadow-[-27px_-18px_#2B0B3A]'>
-              <a
-                href='https://instagram-video-dowloader.vercel.app/'
-                target='_blank'
-              >
+              <a href='https://next-dating-app.vercel.app/' target='_blank'>
                 <img
                   className='h-full object-cover rounded-[14px] sm:hover:scale-[1.03] duration-300 ease-in-out'
-                  src={project1}
+                  src={datingImage}
                   alt='Project image'
                 />
               </a>
@@ -70,10 +66,10 @@ const Projects = () => {
           />
           <div className='flex flex-col sm:flex-row font-poppins max-w-5xl mx-auto   '>
             <div className='rounded-[14px] max-w-md mx-auto sm:mx-0 shadow-[-11px_-9px_#2B0B3A] sm:hover:scale-[1.03] duration-300 ease-in-out sm:shadow-[-27px_-18px_#2B0B3A] order-2 sm:order-1'>
-              <a href='https://ideatech.ae/' target='_blank'>
+              <a href='https://www.trustyoursurgeon.com/' target='_blank'>
                 <img
                   className='h-full object-cover rounded-[14px] sm:hover:scale-[1.03] duration-300 ease-in-out'
-                  src={project2}
+                  src={trustyoursurgeon}
                   alt='Project image'
                 />
               </a>
@@ -82,17 +78,16 @@ const Projects = () => {
               <div className='sm:pl-3 md:pl-8'>
                 <span className='text-[#9857D3]'>Featured Project</span>
                 <h1 className='text-3xl text-[#CCD6F6] font-semibold pb-8 '>
-                  Sky Innovation
+                  Trust Your Surgeon
                 </h1>
               </div>
               <div className='py-2 px-3 bg-secondBox sm:relative z-10 sm:right-7 rounded-[14px]'>
                 <p className='font-medium text-base text-gray-300'>
-                  Sky Innovation is a forward-thinking IT company committed to
-                  delivering cutting-edge solutions for businesses.
+                  A global platform connecting patients with trusted surgeons.
                   <span className='max-[470px]:hidden'>
-                    Our expertise spans web development, mobile app development,
-                    and customized software solutions, empowering businesses to
-                    thrive in the digital age.
+                    Includes profile management, query posting, real-time chat,
+                    and secure payments. Built for healthcare with a focus on
+                    trust and communication.
                   </span>
                 </p>
               </div>
