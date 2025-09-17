@@ -14,9 +14,8 @@ const About = () => {
           </div>
           <div className='flex items-center justify-center  text-base sm:text-lg  text-center flex-col leading-7 gap-5 text-gray-300'>
             <p>
-              Hello i'm Ahmad. I am a dedicated frontend developer with a
-              passion for creating visually appealing and user-friendly web
-              interfaces. My journey into the world of web development began in
+             Hello, I'm Ahmad. I am a dedicated full stack developer with a passion for building
+  responsive, user-friendly applications from front to back. My journey into the world of web development began in
               July 2023, sparked by an introduction to a wealth of YouTube
               tutorials provided by a friend of my big brother{' '}
               <span className='text-[#7127BA] text-2xl font-semibold'>
@@ -24,23 +23,25 @@ const About = () => {
                   Hamid
                 </a>
               </span>
-              . These resources ignited my curiosity and fueled my determination
-              to master the art of frontend development.
+              . Those early resources fueled my curiosity and determination, turning a simple hobby
+  into a career.
             </p>
             <p>
-              Driven by Curiosity and Learning Since taking my first steps into
-              the development world, I have been relentlessly driven by a desire
-              to learn and grow. The initial tutorials laid a strong foundation,
-              but my eagerness to understand the intricacies of web development
-              has pushed me to dive deeper into the field. I continuously seek
-              out new learning opportunities and challenge myself with complex
-              projects to enhance my skills and knowledge.
+      What started with designing clean, modern interfaces soon grew into a deep interest in
+  backend systems, databases, and API development. Today, I work confidently across the
+  full stack, using technologies like React, Next.js, Node.js, Express, PostgreSQL, and
+  MongoDB to deliver complete, scalable applications. I enjoy building features that are
+  not only functional but also optimized for performance and real-time interaction.
             </p>
             <p>
               In this website I showcase my projects. I believe that writing
               what I have learned is the best way to remember things, and I can
-              share my knowledge along the way. Find my all projects on my
-              github id
+              share my knowledge along the way. Find my all projects on my{' '}
+              <span className='text-[#7127BA] text-2xl font-semibold'>
+                <a href='https://github.com/ahmad-code077/' target='_blank'>
+                  Github
+                </a>
+              </span>
             </p>
           </div>
           <div className='mt-8 flex flex-col  gap-2'>

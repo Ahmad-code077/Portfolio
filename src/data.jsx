@@ -12,6 +12,9 @@ import { FaReact, FaNodeJs, FaGithub } from 'react-icons/fa';
 import { IoLogoJavascript } from 'react-icons/io5';
 import { MdOutlineKeyboardArrowRight } from 'react-icons/md';
 
+
+import { SiN8N } from "react-icons/si";
+
 import {
   first,
   trustyoursurgeon,
@@ -62,7 +65,10 @@ export default [
     id: 3,
     heading: 'Interactive Dashboard ',
     para: [
-      `Created an interactive and visually appealing dashboard for data visualization. Optimized the dashboard for performance, resulting in a 40% faster data rendering time.`,
+      `Created an interactive dashboard with real-time updates and data visualization. 
+     Designed and connected REST APIs, optimized database queries`, 
+     `
+     and used WebSocket to deliver live data for a smoother experience.`,
     ],
     image: thirdImg,
     url: 'https://digital-dashboard.netlify.app/profile/overview',
@@ -169,6 +175,17 @@ export const stacks = [
     tip: 'Redux-Toolkit',
     url: 'https://redux-toolkit.js.org/',
     image: <SiRedux className='hover:scale-105 hover:text-[#7127BA]' />,
+  },
+    {
+    id: 9,
+    tip: 'n8n',
+    url: 'https://n8n.io/',
+    image: <SiN8N  className='hover:scale-105 hover:text-[#7127BA]' />,
+  },    {
+    id: 10,
+    tip: 'Node.js',
+    url: 'https://nodejs.org/',
+    image: <FaNodeJs  className='hover:scale-105 hover:text-[#7127BA]' />,
   },
 ];
 export const SkillsIconData = [

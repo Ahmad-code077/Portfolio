@@ -25,7 +25,7 @@ const Projects = () => {
               <h1 className='text-3xl text-[#CCD6F6] font-semibold pb-8 '>
                 Love Finder Dating Site
               </h1>
-              <div className=' py-2 px-3 bg-firstBox sm:relative z-10 sm:left-7 rounded-[14px]'>
+              <div className=' py-2 px-3 bg-first-box sm:relative z-10 sm:left-7 rounded-[14px]'>
                 <p className='font-medium text-base text-gray-300 '>
                   A modern real-time dating platform built with Next.js 15 App
                   Router, featuring swipe-based matching, real-time chat, and
@@ -81,7 +81,7 @@ const Projects = () => {
                   Trust Your Surgeon
                 </h1>
               </div>
-              <div className='py-2 px-3 bg-secondBox sm:relative z-10 sm:right-7 rounded-[14px]'>
+              <div className='py-2 px-3 bg-second-box sm:relative z-10 sm:right-7 rounded-[14px]'>
                 <p className='font-medium text-base text-gray-300'>
                   A global platform connecting patients with trusted surgeons.
                   <span className='max-[470px]:hidden'>

@@ -9,7 +9,7 @@ const NoPage = () => {
           404 Not found
         </h1>
         <Link
-          className='bg-yellow-300 px-4 py-2 text-xl text-[#9858D3] font-bold rounded'
+          className='bg-yellow-300 px-4 py-2 text-xl text-[#9858D3] font-bold rounded-sm'
           to={'/'}
         >
           Back Home

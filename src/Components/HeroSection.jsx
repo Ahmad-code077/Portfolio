@@ -36,11 +36,11 @@ const HeroSection = () => {
             data-aos='fade-up'
             data-aos-duration='1600'
           >
-            <p className='font-[400] text-base  sm:text-lg'>A Developer who</p>
-            <h3 className='font-[400] text-4xl md:text-5xl '>Judges a book</h3>
-            <h3 className='font-[400] text-4xl md:5xl'>
+            <p className='font-normal text-base  sm:text-lg'>A Developer who</p>
+            <h3 className='font-normal text-4xl md:text-5xl '>Judges a book</h3>
+            <h3 className='font-normal text-4xl md:5xl'>
               by its{' '}
-              <span className=' relative inline-block p-2 before:content-[""] before:absolute before:left-0 before:right-0 before:top-0 before:bottom-0  before:border-[1px] before:rounded-customEgg before:rotate-[9deg] '>
+              <span className=' relative inline-block p-2 before:content-[""] before:absolute before:left-0 before:right-0 before:top-0 before:bottom-0  before:border before:rounded-custom-egg before:rotate-[9deg] '>
                 <span className='text-[#7127BA]'>Cover</span>
               </span>
               ...

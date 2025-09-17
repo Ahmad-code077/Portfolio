@@ -8,7 +8,7 @@ const WorkExp = () => {
         <img
           src={gradient}
           alt='Gradient images'
-          className='absolute -z-10 hidden md:block md:max-w-64 md:top-[-48px] lg:max-w-[22rem] lg:top-[-70px]'
+          className='absolute -z-10 hidden md:block md:max-w-64 md:top-[-48px] lg:max-w-88 lg:top-[-70px]'
         />
 
         <div className='grid lg:grid-cols-2 gap-2'>
@@ -16,7 +16,7 @@ const WorkExp = () => {
             const { heading, para, id, image, url } = item;
             return (
               <div key={id} className='w-full '>
-                <article className='border-t-[3px] border-[#7127BA] bg-customGradient h-max flex items-center justify-center m-3 py-6 px-2 sm:p-4 rounded-md hover:scale-105 duration-300 ease-in-out'>
+                <article className='border-t-[3px] border-[#7127BA] bg-custom-gradient h-max flex items-center justify-center m-3 py-6 px-2 sm:p-4 rounded-md hover:scale-105 duration-300 ease-in-out'>
                   <div className='mr-4'>
                     <img
                       src={image}
