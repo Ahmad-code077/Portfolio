@@ -1,22 +1,16 @@
 const SubHero = () => {
   return (
-    <section className='mt-6 ' data-aos='fade-up'>
+    <section className='mt-6' data-aos='fade-up'>
       <div>
-        <h1 className='text-4xl text-center'>Who I am ? </h1>
+        <h1 className='text-4xl text-center'>Who’s Behind the Code?</h1>
 
-        <p className='pt-7 text-gray-300  text-xl text-center sm:text-left px-2 sm:px-12 '>
-          I am a passionate self-taught frontend developer with a keen eye for
-          design and a strong commitment to creating seamless user experiences.
-          My journey into the world of web development began out of curiosity
-          and a love for technology. With determination and the invaluable
-          guidance of my big brother's friend{' '}
-          <span className='text-[#7127BA]'>
-            <a href='https://hamidmehmood.vercel.app/' target='_blank'>
-              Hamid
-            </a>
-          </span>
-          , I was able to navigate the complexities of coding and design,
-          transforming my hobby into a skill.{' '}
+        <p className='pt-7 text-gray-300 text-xl text-center sm:text-left px-2 sm:px-12'>
+          Hi, I’m Ahmad. I’m a self-taught full stack developer who enjoys
+          turning ideas into real applications. I started out just curious about
+          how websites work, and that curiosity grew into a love for building
+          complete web experiencesfrom what you see on the screen to the logic
+          running behind it. For me, it’s about creating things that people
+          actually enjoy using.
         </p>
       </div>
     </section>
