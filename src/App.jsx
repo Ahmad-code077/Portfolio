@@ -20,6 +20,7 @@ const Analytics = lazy(() => import('./Path/Analytics'));
 const Statistics = lazy(() => import('./Path/Statistics'));
 const Guestbook = lazy(() => import('./Path/Guestbook'));
 const Subscribe = lazy(() => import('./Path/Subscribe'));
+const PrivacyPolicy = lazy(() => import('./Path/privacy-policy'));
 
 const App = () => {
   useEffect(() => {
@@ -102,6 +103,14 @@ const App = () => {
           element: (
             <Suspense fallback={<Loading />}>
               <Subscribe />
+            </Suspense>
+          ),
+        },    
+          {
+          path: '/privacy-policy',
+          element: (
+            <Suspense fallback={<Loading />}>
+              <PrivacyPolicy />
             </Suspense>
           ),
         },
